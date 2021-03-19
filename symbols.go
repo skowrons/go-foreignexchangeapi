@@ -1,0 +1,38 @@
+package fera
+
+type Symbol string
+
+const (
+	CAD Symbol = "CAD"
+	HKD Symbol = "HKD"
+	ISK Symbol = "ISK"
+	PHP Symbol = "PHP"
+	DKK Symbol = "DKK"
+	HUF Symbol = "HUF"
+	CZK Symbol = "CZK"
+	AUD Symbol = "AUD"
+	RON Symbol = "RON"
+	SEK Symbol = "SEK"
+	IDR Symbol = "IDR"
+	INR Symbol = "INR"
+	BRL Symbol = "BRL"
+	RUB Symbol = "RUB"
+	HRK Symbol = "HRK"
+	JPY Symbol = "JPY"
+	THB Symbol = "THB"
+	CHF Symbol = "CHF"
+	SGD Symbol = "SGD"
+	PLN Symbol = "PLN"
+	BGN Symbol = "BGN"
+	TRY Symbol = "TRY"
+	CNY Symbol = "CNY"
+	NOK Symbol = "NOK"
+	NZD Symbol = "NZD"
+	ZAR Symbol = "ZAR"
+	USD Symbol = "USD"
+	MXN Symbol = "MXN"
+	ILS Symbol = "ILS"
+	GBP Symbol = "GBP"
+	KRW Symbol = "KRW"
+	MYR Symbol = "MYR"
+)
