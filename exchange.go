@@ -17,9 +17,13 @@ type Rate struct {
 
 type ExchangeOptions struct {
 	Base string
-
+	Symbols []Symbol
+	StartAt time.Time
+	EndAt time.Time
 }
 
-func (c *Client) GetExchange() (Exchange, error) {
-
+// GetExchange will return the current exchange, when no starting and endpoint is given.
+// If a starting and endpoint is given the function will return histroy data.
+func (c *Client) GetExchange(opt ExchangeOptions) (*Exchange, error) {
+	return nil, nil
 }
